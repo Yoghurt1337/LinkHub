@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Hard-coded Unix epoch time (e.g. Epoch timestamp: 1609718400) https://www.epochconverter.com
         const unixEpochTime = 237634560000;
 
-        fetch(`https://discordlookup.mesavirep.xyz/v1/user/${userId}`)
+        fetch(`https://discordlookup.mv-bot.hu/v1/user/${userId}`)
             .then(response => response.json())
             .then(data => {
                 // Extract relevant information
